@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="output">
+        <div id="blob"></div>
+    </div>
+    <div class="dimensions">
+        <div>
+            <label for="blob-height">ارتفاع</label>
+            <input type="number" id="blob-height" value="200">
+
+        </div>
+        <div>
+            <label for="blob-width">عرض</label>
+            <input type="number" id="blob-width" value="200">
+
+        </div>
+    </div>
+
+    <div class="sliders">
+        <input type="range" value="30">
+        <input type="range" value="80">
+        <input type="range" value="60">
+        <input type="range" value="40">
+    </div>
+
+    <input type="text" id="css-code" readonly>
+<button id="copy">copy</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
